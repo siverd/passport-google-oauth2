@@ -4,11 +4,19 @@
   "description": "Passport strategy for Google OAuth 2.0",
   "main": "./lib/oauth2.js",
   "directories": {
-    "example": "examples",
+    "example": "example",
+    "lib": "lib",
     "test": "test"
   },
   "dependencies": {
-    "passport-oauth2": "^1.1.2"
+    "body-parser": "^1.18.2",
+    "connect-redis": "^3.3.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "passport": "^0.4.0",
+    "passport-oauth2": "^1.1.2",
+    "util": "^0.10.3"
   },
   "devDependencies": {
     "vows": "^0.8.0"
@@ -27,7 +35,7 @@
     "passportjs",
     "oauth2"
   ],
-  "author": "Marcus Stade <marcus@stade.se>, Ilya Kantor <iliakan@gmail.com>, Alexis Gruet <alexis.gruet@kroknet.com>, Jared Hanson",
+  "author": "Marcus Stade <marcus@stade.se>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mstade/passport-google-oauth2/issues"
